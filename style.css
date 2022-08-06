@@ -9,36 +9,38 @@ body {
     background-image: url(background_image.jpg);
     width: 100%;
     height: 100%;
-    align-items: flex-end;
 }
 
 .div1{
     width: 97%;
-    height: 680px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     border: solid red;
-    
-    
+      
 }
 .div2 {
-    height: 150px;
+    height: 130px;
     width: 100%;
-    background-color: black;
     width: auto;
     border: solid blue;
     color: white;
+    text-align: center;
+
 }
 
 .div3 {
-    height: 530px;
+    height: 570px;
     width: 100%;
     border: solid yellow;
     color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
+    
+    align-items: center;
+    padding-top: 10px;
+
 }
 .içdiv {
     border: solid purple;
@@ -50,4 +52,25 @@ input[type="text"] {
     width: 300px;
     height: 50px;
 }
+
+h1 {
+    padding-top: 30px;
+    display: inline-block;
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.div4 {
+    width: 70%;
+    border: solid red;
+    height: 100%;
+    background-color:black;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
 
